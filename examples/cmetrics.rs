@@ -1,7 +1,7 @@
 use std::thread;
 
 use anyhow::Result;
-use concurrency::metrics::Metrics;
+use concurrency::metrics::cmap::Metrics;
 use rand::Rng as _;
 
 const N: usize = 2;
